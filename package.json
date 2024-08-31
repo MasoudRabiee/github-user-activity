@@ -4,7 +4,7 @@
     "description": "",
     "main": "bin/index.ts",
     "bin": {
-        "github-activity": "dist/index.js"
+        "github-activity": "dist/bin/index.js"
     },
     "scripts": {
         "build": "tsc",
@@ -15,10 +15,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "typescript": "^5.5.4"
+        "axios": "^1.7.6",
+        "commander": "^12.1.0",
+        "dotenv": "^16.4.5"
     },
     "devDependencies": {
         "@types/node": "^22.5.1",
-        "ts-node": "^10.9.2"
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
     }
 }
